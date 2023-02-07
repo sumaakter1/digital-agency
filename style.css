@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container{
+    color: white;
+    background-color: #9b9898;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    list-style: none;
+    display: flex;
+}
+.item{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px; 
+    margin-right: 20px; 
+}
+/* banner styles */
+span{
+    color: rgba(245, 28, 28, 0.74);
+}
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(asset/image/background.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    
+}
+.title-banner{
+    font-size: 85px;
+    font-weight: bold;
+}
+.discription{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+
+.btn{
+    padding: 15px 30px;
+    font-size: 17px;
+    border: none;
+    margin: 5px;
+}
+.btn-discover{
+    background-color:rgba(245, 28, 28, 0.74); 
+    color: white;
+}
