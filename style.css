@@ -1,221 +1,270 @@
-*{
-    padding: 0;
-    margin: 0;
-    /* border: 2px solid green; */
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid green; */
 }
 
-.nav-container{
-    color: white;
-    background-color: #9b9898;
-    padding: 25px;
-    display: flex;
-    justify-content: space-around;
+.nav-container {
+  color: white;
+  background-color: #9b9898;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.items{
-    list-style: none;
-    display: flex;
+.items {
+  list-style: none;
+  display: flex;
 }
-.item{
-    font-size: 20px;
-    font-weight: bold;
-    padding: 5px; 
-    margin-right: 20px; 
+.item {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  margin-right: 20px;
 }
+
 /* banner styles */
-span{
-    color: red;
+
+span {
+  color: red;
 }
-.banner-container{
-    width: 100%;
-    height: 100vh;
-    background-image: url(asset/image/background.jpg);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(asset/image/background.jpg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.title-banner{
-    font-size: 85px;
-    font-weight: bold;
+.title-banner {
+  font-size: 85px;
+  font-weight: bold;
 }
-.discription{
-    font-size: 22px;
-    width: 50%;
-    margin: auto;
-    padding: 15px;
+.discription {
+  font-size: 22px;
+  width: 50%;
+  margin: auto;
+  padding: 15px;
 }
 
-.btn{
-    padding: 15px 30px;
-    font-size: 17px;
-    border: none;
-    margin: 5px;
+.btn {
+  padding: 15px 30px;
+  font-size: 17px;
+  border: none;
+  margin: 5px;
 }
-.btn-discover{
-    background-color:red; 
-    color: white;
+.btn-discover {
+  background-color: red;
+  color: white;
 }
 
 /* service style  */
-.secvice-container{
-    width: 100%;
-    height: 100vh;
-    background-image: url(asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
-    background-blend-mode: overlay;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 120px;
+.secvice-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(asset/image/footer-bg.png),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 120px;
 }
 
-.service-dtl-container{
-    color: gainsboro;
-    width: 50%;
+.service-dtl-container {
+  color: gainsboro;
+  width: 50%;
 }
-.service-btn{
-    color:gray;
-    border-radius: 30px;
+.service-btn {
+  color: gray;
+  border-radius: 30px;
 }
 
-.service-title{
-    font-size: 30px;
-    font-weight: bold;
-    padding: 15px;
+.service-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
 }
-.service-detail{
-    font-size: 20px;
-    padding: 15px;
-    width: 75%;
+.service-detail {
+  font-size: 20px;
+  padding: 15px;
+  width: 75%;
 }
-.service-list{
-    padding: 25px;
-    list-style: decimal;
+.service-list {
+  padding: 25px;
+  list-style: decimal;
 }
-.service-item{
-    font-size: 18px;
+.service-item {
+  font-size: 18px;
 }
-.author-details{
-    display: flex;
-    align-items: center;
+.author-details {
+  display: flex;
+  align-items: center;
 }
-.author-detail{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border-right: 2px solid red;
-    padding-right: 40px;
+.author-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-right: 2px solid red;
+  padding-right: 40px;
 }
-.author-detail img{
-    height: 80px;
-    width: 80px;
-    border-radius: 40px;
+.author-detail img {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
 }
-.detail-btn{
-    color: red;
-    background-color: white;
-    border-radius: 30px;
-    margin-left: 20px;
+.detail-btn {
+  color: red;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 20px;
 }
 
 /* service icon section styles  */
-.service-icon-container{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    width: 50%;
-    /* margin: 40px; */
+.service-icon-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 50%;
 }
-.service-icon-div{
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    text-align: center;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 4px 5px 8px gray;
-
+.service-icon-div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 8px gray;
 }
-.service-icon-div img{
-    width: 100px;
-    padding-bottom: 20px;
+.service-icon-div img {
+  width: 100px;
+  padding-bottom: 20px;
 }
 
 /* appointment section styles  */
-.appointment-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: red;
-    color: white;
-    padding: 35px;
-    width: 75%;
-    margin: auto;
-    border-radius: 20px;
-    margin-top: -80px;
+.appointment-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  color: white;
+  padding: 35px;
+  width: 75%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: -80px;
 }
-.appointment-container button{
-    color: black;
+.appointment-container button {
+  color: black;
 }
-.number{
-    display: flex;
-    gap: 15px;
-    border-right: 2px solid white;
-    padding-right: 30px;
-    line-height: 30px;
-    
+.number {
+  display: flex;
+  gap: 15px;
+  border-right: 2px solid white;
+  padding-right: 30px;
+  line-height: 30px;
 }
-.number img{
-    width: 90px;
+.number img {
+  width: 90px;
 }
 
-.appointment-disc{
-    width: 350px;
-    font-size: 18px;
-    
+.appointment-disc {
+  width: 350px;
+  font-size: 18px;
 }
 
 /* blog section styles */
-.blog-section{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    padding: 50px ;
+.blog-section {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
 }
-.blog-section h1{
-    font-size: 50px;
-    padding-bottom: 15px;
+.blog-section h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
 }
-.blog-section  p{
-    font-size: 20px;
+.blog-section p {
+  font-size: 20px;
 }
-.blogs{
-    display: flex;
-    justify-content: space-around;
-    margin:20px 70px;
+.blogs {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 70px;
 }
-.blog{
-    width: 350px;
-    border-radius: 5px;
-    box-shadow: 4px 6px 10px gray;
-    padding-bottom: 10px;
+.blog {
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: 4px 6px 10px gray;
+  padding-bottom: 10px;
 }
-.blog img{
-    width: 350px;
-    border-radius: 5px;
-    /* padding-bottom: 10px; */
+.blog img {
+  width: 350px;
+  border-radius: 5px;
 }
-.blog h2{
-    color: #242323;
-    font-size: 25px;
+.blog h2 {
+  color: #242323;
+  font-size: 25px;
 }
-.blog p{
-    font-size: 20px;
-    color: #5c5b5b;
-    padding-top: 15px;
+.blog p {
+  font-size: 20px;
+  color: #5c5b5b;
+  padding-top: 15px;
 }
-.card-detail{
-    padding: 15px;
+.card-detail {
+  padding: 15px;
+}
+
+/* footer section styles  */
+footer {
+  width: 100%;
+  height: 60vh;
+  background-image: url(asset/image/footer-bg.png),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  height: 60vh;
+  margin: auto;
+  border-bottom: 1px solid gray;
+}
+.footer-title {
+  padding-bottom: 30px;
+}
+.agancy-icon {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.agency {
+  width: 25%;
+}
+.agancy-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+.footer-links {
+  list-style: none;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+.copyright {
+  text-align: center;
+  margin: 30px;
 }
