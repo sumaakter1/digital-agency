@@ -174,8 +174,48 @@ span{
 .appointment-disc{
     width: 350px;
     font-size: 18px;
-    /* border-left: 2px solid yellow;
-    border-width: 0 23px;
-    padding-left: 15px; */
     
+}
+
+/* blog section styles */
+.blog-section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px ;
+}
+.blog-section h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.blog-section  p{
+    font-size: 20px;
+}
+.blogs{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 70px;
+}
+.blog{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 4px 6px 10px gray;
+    padding-bottom: 10px;
+}
+.blog img{
+    width: 350px;
+    border-radius: 5px;
+    /* padding-bottom: 10px; */
+}
+.blog h2{
+    color: #242323;
+    font-size: 25px;
+}
+.blog p{
+    font-size: 20px;
+    color: #5c5b5b;
+    padding-top: 15px;
+}
+.card-detail{
+    padding: 15px;
 }
