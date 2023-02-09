@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* border: 2px solid red; */
+    /* border: 2px solid green; */
 }
 
 .nav-container{
@@ -68,7 +68,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+    padding-bottom: 120px;
 }
 
 .service-dtl-container{
@@ -79,9 +79,7 @@ span{
     color:gray;
     border-radius: 30px;
 }
-.secvice-container{
-    padding: 30px;
-}
+
 .service-title{
     font-size: 30px;
     font-weight: bold;
@@ -117,6 +115,7 @@ span{
 }
 .detail-btn{
     color: red;
+    background-color: white;
     border-radius: 30px;
     margin-left: 20px;
 }
@@ -127,6 +126,7 @@ span{
     gap: 20px;
     flex-wrap: wrap;
     width: 50%;
+    /* margin: 40px; */
 }
 .service-icon-div{
     width: 200px;
@@ -141,4 +141,41 @@ span{
 .service-icon-div img{
     width: 100px;
     padding-bottom: 20px;
+}
+
+/* appointment section styles  */
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 35px;
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: -80px;
+}
+.appointment-container button{
+    color: black;
+}
+.number{
+    display: flex;
+    gap: 15px;
+    border-right: 2px solid white;
+    padding-right: 30px;
+    line-height: 30px;
+    
+}
+.number img{
+    width: 90px;
+}
+
+.appointment-disc{
+    width: 350px;
+    font-size: 18px;
+    /* border-left: 2px solid yellow;
+    border-width: 0 23px;
+    padding-left: 15px; */
+    
 }
